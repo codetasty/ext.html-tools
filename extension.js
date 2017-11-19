@@ -50,7 +50,7 @@ define(function(require, exports, module) {
 		onEditorBuild(split) {
 			split.editor.commands.addCommand({
 				name: 'htmlTagWrap',
-				bindKey: {win: 'Alt-W', mac: 'Alt-W'},
+				bindKey: {win: 'Alt-Shift-W', mac: 'Alt-Shift-W'},
 				readOnly: false,
 				exec: (edt) => {
 					this.wrapTag(edt);
